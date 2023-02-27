@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <main className="text-center mt-2 vh-100">
-      <h1 className="display-5 text-danger">CLARUS HOSPITAL</h1>
+      <h1 className="display-5 text-danger">HOSPITAL</h1>
       <Doctors doctors={doctors} appointments={appointments} setAppointments={setAppointments}/>
       <AppointmentList appointments={appointments} setAppointments={setAppointments}/>
     </main>
